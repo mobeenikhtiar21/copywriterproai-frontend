@@ -13,11 +13,11 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  sentry: {
-    hideSourceMaps: true,
-  },
+  // sentry: {
+  //   hideSourceMaps: true,
+  // },
 };
 
-const sentryWebpackPluginOptions = {};
+// const sentryWebpackPluginOptions = {};
 
-module.exports = withSentryConfig(nextConfig, sentryWebpackPluginOptions);
+module.exports = nextConfig;
